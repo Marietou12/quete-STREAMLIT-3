@@ -1,4 +1,8 @@
-pandas
-streamlit
-streamlit-authenticator
-streamlit-option-menu
+streamlit==1.25.0
+streamlit-authenticator==0.4.1
+streamlit-option-menu==0.3.6
+bcrypt==4.0.1
+captcha==0.4
+extra-streamlit-components==0.1.65
+PyJWT==2.8.0
+PyYAML==6.0
