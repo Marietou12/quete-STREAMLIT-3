@@ -39,11 +39,11 @@ def photos():
 
     with col1:
         st.header("a photo")
-        st.image("charge1.jpg")
+        st.image("https://static.vecteezy.com/system/resources/previews/001/826/199/large_2x/progress-loading-bar-buffering-download-upload-and-loading-icon-vector.jpg")
 
     with col2:
         st.header("it's loading")
-        st.image("charge1.jpg")
+        st.image("https://static.vecteezy.com/system/resources/previews/001/826/199/large_2x/progress-loading-bar-buffering-download-upload-and-loading-icon-vector.jpg")
 
     with col3:
         st.header("HAHA NOPE")
