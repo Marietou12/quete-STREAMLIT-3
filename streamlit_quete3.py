@@ -30,7 +30,7 @@ authenticator.login()
 def accueil():
     """Page d'accueil."""
     st.title("Bienvenue sur ma page")
-    st.image('giphy.gif', caption="Bienvenue 🎉")
+    st.image('https://media.giphy.com/media/cvRFgtCmOyutO/giphy.gif', caption="Bienvenue 🎉")
 
 def photos():
     """Page pour afficher des photos."""
@@ -47,7 +47,7 @@ def photos():
 
     with col3:
         st.header("HAHA NOPE")
-        st.image("giphy2.gif", caption=" j'ai pas de photos 😜")
+        st.image("https://media1.tenor.com/images/8a7b164aee0a9f752c92effe0cdc55fe/tenor.gif?itemid=10994904", caption=" j'ai pas de photos 😜")
         
     
 if st.session_state["authentication_status"]:
